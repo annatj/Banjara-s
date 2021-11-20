@@ -1,0 +1,303 @@
+
+body{
+    margin:0px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding :4px;
+    text-align: center;
+    letter-spacing: 8px;
+    color:white;
+    background-color: #242424;
+    font-size: 9px;
+    font-weight: normal;
+    
+    font-style: normal;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+
+    
+}
+
+.icon{
+
+    position: absolute;
+    right: 10px;
+    margin-top: -40px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+.image1{
+    padding-left: 20px;
+    
+}
+.outer ul li{
+    display:inline-block;
+    
+    list-style: none;
+    background-color: white;
+    padding-left: 50px;
+    
+}
+.outer ul li a{
+    text-decoration: none; 
+    color:black;
+}
+.text{
+    position:absolute;
+    top:50%;
+    text-align: right;
+    right: 10%;
+    font-size: 25px;
+}
+.btn{
+    background-color: black;
+    position:absolute;
+    top:80%;
+    left:70%;
+    color: white;
+    border-radius: 10px;
+    padding:10px 25px;
+    text-align: right;
+    cursor: pointer;
+}
+.quantity{
+    cursor: pointer;
+}
+.text3{
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.picture{
+    margin-top: 30px;
+    width:100%;
+    height: 300px;
+    display: flex;
+    clear: both;
+    
+}
+.picture img{
+    width: 100%;
+}
+.prod1, .prod2{
+    margin: 10px;
+}
+.clear{
+    clear: both;
+    height: 1px;
+}
+.featured-wrap{
+    display: flex;
+    margin-top: 10px;
+}
+.featured-left-col{
+    width: 50%;
+}
+.featured-left-col img{
+    width: 100%;
+}
+.featured-right-col{
+    width: 50%;
+    padding: 10px 10px 10px 20px;
+    background: #f8f8f8;
+}
+.skin{
+    float:left;
+    padding-right:500px;
+    padding-left:100px;
+    font-size: 30px;
+}
+.hair{
+    font-size:30px;
+    padding-left: 30px;
+}
+.btn1{
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+    padding:10px 25px;
+
+}
+.btn2{
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+    padding:10px 25px;
+
+}
+.text4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.form{
+    float:left;
+    margin-top: 0px;
+    margin-bottom: 550px;
+}
+.section2{
+    background-color: #f3f2f2c9;
+}
+.form2{
+    margin-top: 30px;
+    padding-top: 30px;
+    font-size:25px;
+}
+.tax{
+    font-size:15px;
+    padding-top: 40px;
+}
+.size{
+    padding-left:40px;
+}
+.quantity{
+    margin-top: 10px;
+    padding-left:40px;
+}
+.btn3{
+    margin-top: 30px;
+    background-color: #818181;
+    color:#F8F8F8;
+     height: 30px;
+    margin-left: 40px;
+    border-radius: 10px;
+    padding:10px 25px;
+
+}
+.btn4{
+    margin-top: 10px;
+    background-color:black;
+    color:white;
+     height: 30px;
+    margin-left: 40px;
+    border-radius: 10px;
+    padding:10px 25px;
+
+}
+.list ul li{
+    margin-left:20px ;
+   text-align: justify;
+}
+.collection{
+    text-align: center;
+    margin: bottom 10px;
+}
+.SkinCare-col{
+    display: flex;
+    padding: 10px;
+}
+.SkinCare-col div{
+    padding: 10px;
+}
+.SkinCare-col div img{
+    width: 100%;
+}
+.SkinCare-col div h4{
+    text-align:center;
+}
+.Application{
+    text-align: center;
+}
+.Applogo{
+    display:flex;
+    justify-content: center;
+    white-space: nowrap;
+    
+    
+}
+.Applogo div{
+padding-right: 10px;
+    
+}
+.Applogo div img{
+    width:50%;
+    margin-left: 10px;
+    text-align: center;
+    
+}
+.brands{
+    text-align: center;  
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.brands img{
+    padding: 20px;
+   width: 25%;
+    float: left;
+    
+}
+.footer{
+    background-color: #160808;
+    padding: 30px 0;
+    color: #fafafa;
+    clear: both;
+
+}
+.footer .content{
+    display:flex;
+    justify-content: space-between;
+    line-height:14px;
+}
+.footer p{
+    line-height: 20px;
+    font-size: 14px;
+}
+.content div{
+    text-align:center;
+    width: 25%;
+    line-height: 20px;
+    font-size: 14px;
+}
+.content ul li {
+    list-style: none;
+}
+.content ul li a{
+    text-decoration: none;
+    color:#fafafa;
+}
+.email{
+    border: none;
+    border-bottom: solid 1px white ;
+    background: none;
+}
+.butn{
+    background-color: #000;
+    color: #f8f8f8;
+    width:100px; 
+    border-radius: 10px;
+    padding: 9px 10px;  
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.disclaimer {
+    text-align:center;
+    padding: left 30px;
+    padding-right:30px;   
+}
+.payment-icons ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    text-align: center;
+}
+.copyright{
+    text-align:center;
+}
